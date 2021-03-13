@@ -1,0 +1,1 @@
+Copyrigth. All rights reserved.
