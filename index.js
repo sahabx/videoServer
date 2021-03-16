@@ -10,8 +10,9 @@ const Joi = require("joi");
 const { urlencoded } = require("express");
 const genDebug = require("debug")("myapp:general");
 const specDebug = require("debug")("myapp:spec");
-const subjects = require("./routes/subjects")
 const homepage = require("./routes/homepage");
+const departments = require("./routes/departments");
+const customers = require("./routes/customers");
 const boolean = require("joi/lib/types/boolean");
 
 
@@ -90,7 +91,8 @@ app.set("views","./views");
 app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 app.use(express.static('public'));
-app.use("/api/subjects",subjects);
+app.use("/api/departments",departments);
+app.use("/api/customers",customers);
 app.use("/",homepage);
 
 /******************************************
