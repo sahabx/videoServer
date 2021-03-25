@@ -31,6 +31,6 @@ function departmentValidator(inputObject){
  }
 
 
-
+ module.exports.departmentSchema = departmentSchema
  module.exports.Department = Department;
  module.exports.departmentValidator = departmentValidator;

@@ -13,6 +13,8 @@ const specDebug = require("debug")("myapp:spec");
 const homepage = require("./routes/homepage");
 const departments = require("./routes/departments");
 const customers = require("./routes/customers");
+const courses = require("./routes/courses");
+const subscriptions = require("./routes/subscriptions.js");
 const boolean = require("joi/lib/types/boolean");
 
 
@@ -93,6 +95,8 @@ app.use(express.urlencoded({extended:true}));
 app.use(express.static('public'));
 app.use("/api/departments",departments);
 app.use("/api/customers",customers);
+app.use("/api/courses",courses);
+app.use("/api/subscriptions",subscriptions);
 app.use("/",homepage);
 
 /******************************************

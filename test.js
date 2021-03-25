@@ -149,9 +149,16 @@ function getCommit(repo){
 
 //  }
 // delayList()
-for(var i=0;i<15;i++){
-    let randomNumber = Math.random()*500000000000;
-    let randomDate = new Date(randomNumber);
+// for(var i=0;i<15;i++){
+//     let randomNumber = Math.random()*500000000000;
+//     let randomDate = new Date(randomNumber);
 
-    console.log(new Date((new Date()) - (new Date(Math.random()*500000000000))))
-}
+//     console.log(new Date((new Date()) - (new Date(Math.random()*500000000000))))
+// }
+
+// function newf(){
+//     console.log(answer);
+//     let answer =2
+// }
+// newf()
+// newf()
