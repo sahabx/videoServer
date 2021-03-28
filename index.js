@@ -1,7 +1,7 @@
 const mongoose = require("mongoose")
 const express = require("express");
 const log = require("./middleware/logger");
-const auth = require("./middleware/authentication");
+//const auth = require("./middleware/authentication");
 const morgan = require("morgan");
 const helmet = require("helmet");
 const config = require("config");
@@ -15,7 +15,22 @@ const departments = require("./routes/departments");
 const customers = require("./routes/customers");
 const courses = require("./routes/courses");
 const subscriptions = require("./routes/subscriptions.js");
+const auth = require("./routes/auth.js");
+const users = require("./routes/users.js");
 const boolean = require("joi/lib/types/boolean");
+
+/******************************************
+ *  Checking environmental variable 
+ *  The app crashes if the environmental
+ *  is not declared
+ *******************************************/
+
+
+if(!config.get("jwtPrivateKey")){
+    console.log("FATAL ERROR: jwtPrivateKey was not declared");
+    process.exit(1)
+}
+
 
 
 /******************************************
@@ -97,6 +112,8 @@ app.use("/api/departments",departments);
 app.use("/api/customers",customers);
 app.use("/api/courses",courses);
 app.use("/api/subscriptions",subscriptions);
+app.use("/api/users",users);
+app.use("/api/auth",auth);
 app.use("/",homepage);
 
 /******************************************
