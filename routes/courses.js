@@ -4,6 +4,10 @@ const router = express.Router();
 const Joi = require("Joi");
 const {Courses, courseValidators} = require("../models/course.js")
 const {Department} = require("../models/department.js")
+const auth = require("../middleware/auth.js")
+const admin = require("../middleware/admin.js")
+
+
 
 router.get("/",async (req,res)=>{
     try{
@@ -27,7 +31,7 @@ router.get("/:id",async (req,res)=>{
     }
 })
 
-router.post("/",async(req,res)=>{
+router.post("/",auth,async(req,res)=>{
     try{
         let validation = courseValidators(req.body);
         
@@ -63,7 +67,7 @@ router.post("/",async(req,res)=>{
     }
 })
 
-router.put("/:id",async(req,res)=>{
+router.put("/:id",auth,async(req,res)=>{
     try{
         let validation = courseValidators(req.body);
         if(validation.error){
@@ -98,7 +102,7 @@ router.put("/:id",async(req,res)=>{
     }
 })
 
-router.delete("/:id", async(req,res)=>{
+router.delete("/:id", [auth,admin],async(req,res)=>{
     try{
         let result = await Courses.findByIdAndRemove({_id:req.params.id})
         console.log("deleted a new course");

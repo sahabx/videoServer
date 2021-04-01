@@ -3,7 +3,9 @@ const router = express.Router();
 const Joi = require("joi")
 const mongoose = require("mongoose")
 const {Department,departmentValidator} = require("../models/department.js")
-
+const auth = require("../middleware/auth.js");
+const admin = require("../middleware/admin.js");
+const asyncHandler = require("../middleware/asyncHandler.js")
 
 
 // const newDepartment = new Department({
@@ -26,12 +28,14 @@ const {Department,departmentValidator} = require("../models/department.js")
 //topicScan();
 
 
-router.get("/",async(req,res)=>{
+
+router.get("/",asyncHandler(async(req,res)=>{
     department = await Department.find();
     console.log(department)
     res.send(department);
     console.log("department enquired")
-})
+   
+}));
 
 router.get("/:id",async(req,res)=>{
     try{
@@ -45,7 +49,7 @@ router.get("/:id",async(req,res)=>{
  * Setting up POST routes
  * *****************************************/
 
-router.post("/",async(req,res)=>{
+router.post("/",auth,async(req,res)=>{
 
     let input = departmentValidator(req.body);
 
@@ -66,7 +70,7 @@ router.post("/",async(req,res)=>{
 /*******************************************
  * Setting up PUT routes
  * *****************************************/
-router.put("/:id",async(req,res)=>{
+router.put("/:id",auth,async(req,res)=>{
     try{
         let result = Department.find({_id:req.params.id})
         let input = departmentValidator(req.body);
@@ -92,7 +96,7 @@ router.put("/:id",async(req,res)=>{
  * Setting up Delete routes
  ******************************************/
 
-router.delete("/:id",async(req,res)=>{
+router.delete("/:id",[auth,admin],async(req,res)=>{
     try{
         let result = Department.find({_id:req.params.id})
         result = await Department.deleteOne({_id:req.params.id})

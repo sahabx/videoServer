@@ -2,6 +2,8 @@ const express = require("express");
 const router = express.Router();
 const mongoose = require("mongoose")
 const {Customers, customerValidation} = require("../models/customer.js")
+const auth = require("../middleware/auth.js")
+const admin = require("../middleware/admin.js")
 
 
 router.get("/",async(req,res)=>{
@@ -26,7 +28,7 @@ router.get("/:id",async(req,res)=>{
 })
 
 
-router.post("/",async(req,res)=>{
+router.post("/",auth,async(req,res)=>{
     let validation = customerValidation(req.body)
         if(validation.error){
             res.send(validation.error.details);
@@ -47,7 +49,7 @@ router.post("/",async(req,res)=>{
 })
 
 
-router.put("/:id",async(req,res)=>{
+router.put("/:id",auth,async(req,res)=>{
 
     let validation = customerValidation(req.body)
         if(validation.error){
@@ -69,7 +71,7 @@ router.put("/:id",async(req,res)=>{
 })
 
 
-router.delete("/:id",async(req,res)=>{
+router.delete("/:id",[auth,admin],async(req,res)=>{
     try{
         let result = await Customers.find({_id:req.params.id})
         result = await Customers.deleteOne({_id:req.params.id})

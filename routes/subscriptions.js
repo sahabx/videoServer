@@ -5,6 +5,7 @@ const {Subscriptions, SubscriptionValidator} = require("../models/subscription.j
 const {Customers} = require("../models/customer.js");
 const {Courses} = require("../models/course.js");
 const mongoose = require("mongoose");
+const auth = require("../middleware/auth.js")
 
 
 
@@ -20,7 +21,7 @@ router.get("/",async (req,res)=>{
 });
 
 
-router.post("/",async(req,res)=>{
+router.post("/",auth,async(req,res)=>{
    try{
     let validation = SubscriptionValidator(req.body)
     if(!validation){res.status(400).send(validation.details)}

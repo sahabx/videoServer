@@ -1,3 +1,5 @@
+const winston = require("winston");
+require("winston-mongodb");
 const mongoose = require("mongoose")
 const express = require("express");
 const log = require("./middleware/logger");
@@ -18,6 +20,28 @@ const subscriptions = require("./routes/subscriptions.js");
 const auth = require("./routes/auth.js");
 const users = require("./routes/users.js");
 const boolean = require("joi/lib/types/boolean");
+const error = require("./middleware/error.js");
+
+
+winston.add(winston.transports.File,{filename:"./logger.log"});
+winston.add(winston.transports.MongoDB,{db:"mongodb://localhost/learnerAid"})
+
+// process.on("uncaughtException",(ex)=>{
+//     console.log("ERROR outside routes");
+//     winston.error({message:ex.message,meta:ex.stack})
+// })
+
+
+winston.handleExceptions(
+    new winston.transports.File({filename:"uncaughtExceptions.log"}),
+    new winston.transports.MongoDB({db:"mongodb://localhost/learnerAid"})
+)
+
+process.on("unhandledRejection",(ex)=>{
+    console.log("**********ERROR Promise Rejected**********");
+    throw ex
+})
+
 
 /******************************************
  *  Checking environmental variable 
@@ -25,6 +49,12 @@ const boolean = require("joi/lib/types/boolean");
  *  is not declared
  *******************************************/
 
+//  const delayedPromise = Promise.reject(
+//      new Error("Promise rejected")
+//  )
+
+
+//  delayedPromise.then(console.log("promise completed"));
 
 if(!config.get("jwtPrivateKey")){
     console.log("FATAL ERROR: jwtPrivateKey was not declared");
@@ -115,6 +145,8 @@ app.use("/api/subscriptions",subscriptions);
 app.use("/api/users",users);
 app.use("/api/auth",auth);
 app.use("/",homepage);
+
+app.use(error)
 
 /******************************************
  *  Custom middleware

@@ -6,7 +6,13 @@ const {Users, userValidation} = require("../models/user.js")
 const bcrypt = require("bcrypt")
 const jwt = require("jsonwebtoken")
 const config = require("config")
+const auth = require("../middleware/auth.js")
 
+router.get("/myaccount",auth,async(req,res)=>{
+    let user = await Users.findById(req.user._id).select("-password");
+    res.send(user)
+
+})
 
 router.post("/",async(req,res)=>{
     let validation = userValidation(req.body)
