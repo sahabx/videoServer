@@ -19,3 +19,24 @@
 {"message":"Promise.reject is not a constructor","meta":"TypeError: Promise.reject is not a constructor\n    at Object.<anonymous> (E:\\node project\\CompleteP\\index.js:42:25)\n    at Module._compile (internal/modules/cjs/loader.js:1156:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1176:10)\n    at Module.load (internal/modules/cjs/loader.js:1000:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:899:14)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)\n    at internal/main/run_main_module.js:18:47","level":"error","timestamp":"2021-03-31T23:36:50.061Z"}
 {"message":"Promise.reject is not a constructor","meta":"TypeError: Promise.reject is not a constructor\n    at Object.<anonymous> (E:\\node project\\CompleteP\\index.js:42:25)\n    at Module._compile (internal/modules/cjs/loader.js:1156:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1176:10)\n    at Module.load (internal/modules/cjs/loader.js:1000:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:899:14)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)\n    at internal/main/run_main_module.js:18:47","level":"error","timestamp":"2021-03-31T23:37:02.615Z"}
 {"message":"Promise rejected","meta":"Error: Promise rejected\n    at Object.<anonymous> (E:\\node project\\CompleteP\\index.js:53:6)\n    at Module._compile (internal/modules/cjs/loader.js:1156:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1176:10)\n    at Module.load (internal/modules/cjs/loader.js:1000:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:899:14)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)\n    at internal/main/run_main_module.js:18:47","level":"error","timestamp":"2021-04-01T00:20:20.677Z"}
+{"level":"info","message":"database connection successful","timestamp":"2021-04-01T05:15:45.841Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2021-04-01T05:15:59.930Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2021-04-01T05:16:12.715Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2021-04-01T05:18:53.931Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2021-04-01T05:19:20.295Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2021-04-01T05:20:00.131Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2021-04-01T05:20:29.456Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2021-04-01T05:20:59.696Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2021-04-01T05:21:21.358Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2021-04-01T05:23:00.550Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2021-04-01T05:23:55.949Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2021-04-01T05:24:17.043Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2021-04-01T05:24:42.283Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2021-04-01T05:24:51.546Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2021-04-01T05:26:17.982Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2021-04-01T05:26:58.629Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2021-04-01T05:28:43.405Z"}
+{"level":"info","message":"Listening on port: 3000","timestamp":"2021-04-01T05:29:21.473Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2021-04-01T05:29:21.573Z"}
+{"level":"info","message":"Listening on port: 3000","timestamp":"2021-04-01T05:29:30.161Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2021-04-01T05:29:30.255Z"}
