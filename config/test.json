@@ -1,0 +1,5 @@
+{
+    "name":"Express-App",
+    "jwtPrivateKey":"1122",
+    "db":"mongodb://localhost/learnerAid_tests"
+}

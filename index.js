@@ -10,8 +10,11 @@ require("./startup/config.js")();
 /*******************************************
  * Declaring emit reciever
  ******************************************/
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 2000;
 
-app.listen(port,(e)=>{
+
+const server = app.listen(port,(e)=>{
     winston.info(`Listening on port: ${port}`)
 })
+
+module.exports = server

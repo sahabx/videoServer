@@ -41,9 +41,10 @@ router.get("/:id",async(req,res)=>{
     try{
         let result = await Department.find({_id:req.params.id})
         res.send(result);
-    }catch(e){console.log(e.message); res.send(e.message)}
+    }catch(e){console.log(e.message); res.status(404).send(e.message)}
     console.log("Single result query")
 })
+
 
 /*******************************************
  * Setting up POST routes
