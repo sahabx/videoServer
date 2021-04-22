@@ -49,7 +49,8 @@ const subscriptionSchema = new mongoose.Schema({
     subscriptionFee:{
         type: Number,
         min:0
-    }
+    },
+    cancelled: Boolean
 })
 
 const Subscriptions = mongoose.model("subscriptions", subscriptionSchema);

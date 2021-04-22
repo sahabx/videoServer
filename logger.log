@@ -517,3 +517,192 @@
 {"level":"info","message":"Connected to mongodb://localhost/learnerAid_tests","timestamp":"2021-04-16T10:55:13.671Z"}
 {"level":"info","message":"Listening on port: 3000","timestamp":"2021-04-16T10:55:14.307Z"}
 {"level":"info","message":"Connected to mongodb://localhost/learnerAid_tests","timestamp":"2021-04-16T10:55:14.398Z"}
+{"level":"info","message":"Listening on port: 3000","timestamp":"2021-04-16T12:09:57.320Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid_tests","timestamp":"2021-04-16T12:09:57.412Z"}
+{"level":"info","message":"Listening on port: 3000","timestamp":"2021-04-16T12:09:58.468Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid_tests","timestamp":"2021-04-16T12:09:58.587Z"}
+{"level":"info","message":"Listening on port: 3000","timestamp":"2021-04-16T13:02:23.019Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid_tests","timestamp":"2021-04-16T13:02:23.116Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid_tests","timestamp":"2021-04-16T13:02:23.326Z"}
+{"level":"info","message":"Listening on port: 3000","timestamp":"2021-04-16T13:02:23.372Z"}
+{"level":"info","message":"Listening on port: 3000","timestamp":"2021-04-16T13:09:22.147Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid_tests","timestamp":"2021-04-16T13:09:22.257Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid_tests","timestamp":"2021-04-16T13:09:22.539Z"}
+{"level":"info","message":"Listening on port: 3000","timestamp":"2021-04-16T13:09:22.586Z"}
+{"message":"Subscriptions.findOne is not a function","meta":"TypeError: Subscriptions.findOne is not a function\n    at E:\\node project\\CompleteP\\routes\\cancel.js:15:38\n    at Layer.handle [as handle_request] (E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at Layer.handle [as handle_request] (E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\index.js:281:22\n    at Function.process_params (E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at Function.handle (E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\index.js:174:3)\n    at router (E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at Layer.handle [as handle_request] (E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\index.js:284:7\n    at Function.process_params (E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at serveStatic (E:\\node project\\CompleteP\\node_modules\\serve-static\\index.js:75:16)\n    at Layer.handle [as handle_request] (E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\index.js:284:7\n    at Function.process_params (E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at urlencodedParser (E:\\node project\\CompleteP\\node_modules\\body-parser\\lib\\types\\urlencoded.js:82:7)\n    at Layer.handle [as handle_request] (E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\index.js:284:7\n    at Function.process_params (E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at E:\\node project\\CompleteP\\node_modules\\body-parser\\lib\\read.js:130:5\n    at invokeCallback (E:\\node project\\CompleteP\\node_modules\\raw-body\\index.js:224:16)\n    at done (E:\\node project\\CompleteP\\node_modules\\raw-body\\index.js:213:7)\n    at IncomingMessage.onEnd (E:\\node project\\CompleteP\\node_modules\\raw-body\\index.js:273:7)\n    at IncomingMessage.emit (events.js:322:22)\n    at endReadableNT (_stream_readable.js:1187:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)","level":"error","timestamp":"2021-04-16T13:09:22.778Z"}
+{"level":"info","message":"Listening on port: 3000","timestamp":"2021-04-16T13:12:14.578Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid_tests","timestamp":"2021-04-16T13:12:14.683Z"}
+{"level":"info","message":"Listening on port: 3000","timestamp":"2021-04-16T13:12:15.607Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid_tests","timestamp":"2021-04-16T13:12:15.718Z"}
+{"message":"Subscriptions.findOne is not a function","meta":"TypeError: Subscriptions.findOne is not a function\n    at E:\\node project\\CompleteP\\routes\\cancel.js:15:38\n    at Layer.handle [as handle_request] (E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at Layer.handle [as handle_request] (E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\index.js:281:22\n    at Function.process_params (E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at Function.handle (E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\index.js:174:3)\n    at router (E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at Layer.handle [as handle_request] (E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\index.js:284:7\n    at Function.process_params (E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at serveStatic (E:\\node project\\CompleteP\\node_modules\\serve-static\\index.js:75:16)\n    at Layer.handle [as handle_request] (E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\index.js:284:7\n    at Function.process_params (E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at urlencodedParser (E:\\node project\\CompleteP\\node_modules\\body-parser\\lib\\types\\urlencoded.js:82:7)\n    at Layer.handle [as handle_request] (E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\index.js:284:7\n    at Function.process_params (E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at E:\\node project\\CompleteP\\node_modules\\body-parser\\lib\\read.js:130:5\n    at invokeCallback (E:\\node project\\CompleteP\\node_modules\\raw-body\\index.js:224:16)\n    at done (E:\\node project\\CompleteP\\node_modules\\raw-body\\index.js:213:7)\n    at IncomingMessage.onEnd (E:\\node project\\CompleteP\\node_modules\\raw-body\\index.js:273:7)\n    at IncomingMessage.emit (events.js:322:22)\n    at endReadableNT (_stream_readable.js:1187:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)","level":"error","timestamp":"2021-04-16T13:12:15.834Z"}
+{"message":"Subscriptions.findOne is not a function","meta":"TypeError: Subscriptions.findOne is not a function\n    at E:\\node project\\CompleteP\\routes\\cancel.js:15:38\n    at Layer.handle [as handle_request] (E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at Layer.handle [as handle_request] (E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\index.js:281:22\n    at Function.process_params (E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at Function.handle (E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\index.js:174:3)\n    at router (E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at Layer.handle [as handle_request] (E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\index.js:284:7\n    at Function.process_params (E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at serveStatic (E:\\node project\\CompleteP\\node_modules\\serve-static\\index.js:75:16)\n    at Layer.handle [as handle_request] (E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\index.js:284:7\n    at Function.process_params (E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at urlencodedParser (E:\\node project\\CompleteP\\node_modules\\body-parser\\lib\\types\\urlencoded.js:82:7)\n    at Layer.handle [as handle_request] (E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\index.js:284:7\n    at Function.process_params (E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at E:\\node project\\CompleteP\\node_modules\\body-parser\\lib\\read.js:130:5\n    at invokeCallback (E:\\node project\\CompleteP\\node_modules\\raw-body\\index.js:224:16)\n    at done (E:\\node project\\CompleteP\\node_modules\\raw-body\\index.js:213:7)\n    at IncomingMessage.onEnd (E:\\node project\\CompleteP\\node_modules\\raw-body\\index.js:273:7)\n    at IncomingMessage.emit (events.js:322:22)\n    at endReadableNT (_stream_readable.js:1187:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)","level":"error","timestamp":"2021-04-16T13:12:16.092Z"}
+{"level":"info","message":"Listening on port: 3000","timestamp":"2021-04-16T13:12:45.882Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid_tests","timestamp":"2021-04-16T13:12:45.993Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid_tests","timestamp":"2021-04-16T13:12:46.172Z"}
+{"level":"info","message":"Listening on port: 3000","timestamp":"2021-04-16T13:12:46.218Z"}
+{"level":"info","message":"Listening on port: 3000","timestamp":"2021-04-16T13:14:21.570Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid_tests","timestamp":"2021-04-16T13:14:21.695Z"}
+{"level":"info","message":"Listening on port: 3000","timestamp":"2021-04-16T13:14:22.971Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid_tests","timestamp":"2021-04-16T13:14:23.138Z"}
+{"level":"info","message":"Listening on port: 3000","timestamp":"2021-04-18T16:04:35.511Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid_tests","timestamp":"2021-04-18T16:04:35.627Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid_tests","timestamp":"2021-04-18T16:04:35.617Z"}
+{"level":"info","message":"Listening on port: 3000","timestamp":"2021-04-18T16:04:35.638Z"}
+{"level":"info","message":"Listening on port: 3000","timestamp":"2021-04-18T16:07:32.836Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid_tests","timestamp":"2021-04-18T16:07:32.955Z"}
+{"level":"info","message":"Listening on port: 3000","timestamp":"2021-04-18T16:07:33.983Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid_tests","timestamp":"2021-04-18T16:07:34.118Z"}
+{"level":"info","message":"Listening on port: 3000","timestamp":"2021-04-18T16:09:19.302Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid_tests","timestamp":"2021-04-18T16:09:19.409Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid_tests","timestamp":"2021-04-18T16:09:19.552Z"}
+{"level":"info","message":"Listening on port: 3000","timestamp":"2021-04-18T16:09:19.606Z"}
+{"message":"Cannot set headers after they are sent to the client","meta":"Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (_http_outgoing.js:526:11)\n    at ServerResponse.header (E:\\node project\\CompleteP\\node_modules\\express\\lib\\response.js:771:10)\n    at ServerResponse.send (E:\\node project\\CompleteP\\node_modules\\express\\lib\\response.js:170:12)\n    at E:\\node project\\CompleteP\\routes\\cancel.js:24:21\n    at Layer.handle [as handle_request] (E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at Layer.handle [as handle_request] (E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\index.js:281:22\n    at Function.process_params (E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\index.js:335:12)","level":"error","timestamp":"2021-04-18T16:09:19.776Z"}
+{"level":"info","message":"Listening on port: 3000","timestamp":"2021-04-18T16:10:04.325Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid_tests","timestamp":"2021-04-18T16:10:04.471Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid_tests","timestamp":"2021-04-18T16:10:04.421Z"}
+{"level":"info","message":"Listening on port: 3000","timestamp":"2021-04-18T16:10:04.471Z"}
+{"level":"info","message":"Listening on port: 3000","timestamp":"2021-04-18T16:11:10.086Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid_tests","timestamp":"2021-04-18T16:11:10.189Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid_tests","timestamp":"2021-04-18T16:11:10.399Z"}
+{"level":"info","message":"Listening on port: 3000","timestamp":"2021-04-18T16:11:10.449Z"}
+{"message":"customer is not defined","meta":"ReferenceError: customer is not defined\n    at E:\\node project\\CompleteP\\routes\\cancel.js:20:30\n    at Layer.handle [as handle_request] (E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at Layer.handle [as handle_request] (E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\index.js:281:22\n    at Function.process_params (E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at Function.handle (E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\index.js:174:3)\n    at router (E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at Layer.handle [as handle_request] (E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\index.js:284:7\n    at Function.process_params (E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at serveStatic (E:\\node project\\CompleteP\\node_modules\\serve-static\\index.js:75:16)\n    at Layer.handle [as handle_request] (E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\index.js:284:7\n    at Function.process_params (E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at urlencodedParser (E:\\node project\\CompleteP\\node_modules\\body-parser\\lib\\types\\urlencoded.js:82:7)\n    at Layer.handle [as handle_request] (E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\index.js:284:7\n    at Function.process_params (E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (E:\\node project\\CompleteP\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at E:\\node project\\CompleteP\\node_modules\\body-parser\\lib\\read.js:130:5\n    at invokeCallback (E:\\node project\\CompleteP\\node_modules\\raw-body\\index.js:224:16)\n    at done (E:\\node project\\CompleteP\\node_modules\\raw-body\\index.js:213:7)\n    at IncomingMessage.onEnd (E:\\node project\\CompleteP\\node_modules\\raw-body\\index.js:273:7)\n    at IncomingMessage.emit (events.js:322:22)\n    at endReadableNT (_stream_readable.js:1187:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)","level":"error","timestamp":"2021-04-18T16:11:10.628Z"}
+{"level":"info","message":"Listening on port: 3000","timestamp":"2021-04-18T16:11:45.040Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid_tests","timestamp":"2021-04-18T16:11:45.160Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid_tests","timestamp":"2021-04-18T16:11:45.431Z"}
+{"level":"info","message":"Listening on port: 3000","timestamp":"2021-04-18T16:11:45.485Z"}
+{"level":"info","message":"Listening on port: 3000","timestamp":"2021-04-18T16:13:47.342Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid_tests","timestamp":"2021-04-18T16:13:47.440Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid_tests","timestamp":"2021-04-18T16:13:47.577Z"}
+{"level":"info","message":"Listening on port: 3000","timestamp":"2021-04-18T16:13:47.625Z"}
+{"level":"info","message":"Listening on port: 2000","timestamp":"2021-04-21T23:23:19.489Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid","timestamp":"2021-04-21T23:23:19.578Z"}
+{"level":"info","message":"Listening on port: 2000","timestamp":"2021-04-21T23:24:29.986Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid","timestamp":"2021-04-21T23:24:30.066Z"}
+{"level":"info","message":"Listening on port: 3000","timestamp":"2021-04-21T23:25:12.982Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid","timestamp":"2021-04-21T23:25:13.093Z"}
+{"level":"info","message":"Listening on port: 3000","timestamp":"2021-04-21T23:25:56.171Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid_tests","timestamp":"2021-04-21T23:25:56.273Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid_tests","timestamp":"2021-04-21T23:25:56.271Z"}
+{"level":"info","message":"Listening on port: 3000","timestamp":"2021-04-21T23:25:56.307Z"}
+{"level":"info","message":"Listening on port: 3000","timestamp":"2021-04-21T23:27:55.680Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid_tests","timestamp":"2021-04-21T23:27:55.765Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid_tests","timestamp":"2021-04-21T23:27:55.878Z"}
+{"level":"info","message":"Listening on port: 3000","timestamp":"2021-04-21T23:27:55.921Z"}
+{"level":"info","message":"Listening on port: 3000","timestamp":"2021-04-21T23:28:41.934Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid_tests","timestamp":"2021-04-21T23:28:42.087Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid_tests","timestamp":"2021-04-21T23:28:42.350Z"}
+{"level":"info","message":"Listening on port: 3000","timestamp":"2021-04-21T23:28:42.399Z"}
+{"level":"info","message":"Listening on port: 3000","timestamp":"2021-04-21T23:31:54.993Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid_tests","timestamp":"2021-04-21T23:31:55.124Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid_tests","timestamp":"2021-04-21T23:31:55.239Z"}
+{"level":"info","message":"Listening on port: 3000","timestamp":"2021-04-21T23:31:55.285Z"}
+{"level":"info","message":"Listening on port: 3000","timestamp":"2021-04-21T23:32:54.747Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid_tests","timestamp":"2021-04-21T23:32:54.879Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid_tests","timestamp":"2021-04-21T23:32:55.083Z"}
+{"level":"info","message":"Listening on port: 3000","timestamp":"2021-04-21T23:32:55.144Z"}
+{"level":"info","message":"Listening on port: 3000","timestamp":"2021-04-21T23:33:22.953Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid_tests","timestamp":"2021-04-21T23:33:23.050Z"}
+{"level":"info","message":"Listening on port: 3000","timestamp":"2021-04-21T23:34:11.614Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid_tests","timestamp":"2021-04-21T23:34:11.699Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid_tests","timestamp":"2021-04-21T23:34:11.874Z"}
+{"level":"info","message":"Listening on port: 3000","timestamp":"2021-04-21T23:34:11.926Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid","timestamp":"2021-04-21T23:39:20.300Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid","timestamp":"2021-04-21T23:40:01.045Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid","timestamp":"2021-04-21T23:40:40.773Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid","timestamp":"2021-04-21T23:40:56.758Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid","timestamp":"2021-04-21T23:41:23.585Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid","timestamp":"2021-04-21T23:41:39.195Z"}
+{"level":"info","message":"Listening on port: 3000","timestamp":"2021-04-21T23:45:45.902Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid","timestamp":"2021-04-21T23:45:45.995Z"}
+{"message":"Unexpected token c in JSON at position 15","meta":"SyntaxError: Unexpected token c in JSON at position 15\n    at JSON.parse (<anonymous>)\n    at parse (E:\\node project\\CompleteP\\node_modules\\body-parser\\lib\\types\\json.js:89:19)\n    at E:\\node project\\CompleteP\\node_modules\\body-parser\\lib\\read.js:121:18\n    at invokeCallback (E:\\node project\\CompleteP\\node_modules\\raw-body\\index.js:224:16)\n    at done (E:\\node project\\CompleteP\\node_modules\\raw-body\\index.js:213:7)\n    at IncomingMessage.onEnd (E:\\node project\\CompleteP\\node_modules\\raw-body\\index.js:273:7)\n    at IncomingMessage.emit (events.js:322:22)\n    at endReadableNT (_stream_readable.js:1187:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)","level":"error","timestamp":"2021-04-21T23:46:22.410Z"}
+{"message":"Unexpected string in JSON at position 68","meta":"SyntaxError: Unexpected string in JSON at position 68\n    at JSON.parse (<anonymous>)\n    at parse (E:\\node project\\CompleteP\\node_modules\\body-parser\\lib\\types\\json.js:89:19)\n    at E:\\node project\\CompleteP\\node_modules\\body-parser\\lib\\read.js:121:18\n    at invokeCallback (E:\\node project\\CompleteP\\node_modules\\raw-body\\index.js:224:16)\n    at done (E:\\node project\\CompleteP\\node_modules\\raw-body\\index.js:213:7)\n    at IncomingMessage.onEnd (E:\\node project\\CompleteP\\node_modules\\raw-body\\index.js:273:7)\n    at IncomingMessage.emit (events.js:322:22)\n    at endReadableNT (_stream_readable.js:1187:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)","level":"error","timestamp":"2021-04-21T23:48:30.489Z"}
+{"level":"info","message":"Listening on port: 3000","timestamp":"2021-04-21T23:49:19.110Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid","timestamp":"2021-04-21T23:49:19.210Z"}
+{"level":"info","message":"Listening on port: 3000","timestamp":"2021-04-21T23:51:02.664Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid","timestamp":"2021-04-21T23:51:02.771Z"}
+{"level":"info","message":"Listening on port: 3000","timestamp":"2021-04-21T23:51:48.109Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid","timestamp":"2021-04-21T23:51:48.213Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid_tests","timestamp":"2021-04-21T23:53:48.420Z"}
+{"level":"info","message":"Listening on port: 3000","timestamp":"2021-04-21T23:53:48.455Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid_tests","timestamp":"2021-04-21T23:53:48.577Z"}
+{"level":"info","message":"Listening on port: 3000","timestamp":"2021-04-21T23:53:48.628Z"}
+{"level":"info","message":"Listening on port: 3000","timestamp":"2021-04-21T23:54:21.667Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid_tests","timestamp":"2021-04-21T23:54:21.801Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid_tests","timestamp":"2021-04-21T23:54:21.870Z"}
+{"level":"info","message":"Listening on port: 3000","timestamp":"2021-04-21T23:54:21.902Z"}
+{"level":"info","message":"Listening on port: 3000","timestamp":"2021-04-21T23:58:22.966Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid_tests","timestamp":"2021-04-21T23:58:23.067Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid_tests","timestamp":"2021-04-21T23:58:23.323Z"}
+{"level":"info","message":"Listening on port: 3000","timestamp":"2021-04-21T23:58:23.370Z"}
+{"level":"info","message":"Listening on port: 3000","timestamp":"2021-04-22T00:01:01.693Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid","timestamp":"2021-04-22T00:01:01.779Z"}
+{"level":"info","message":"Listening on port: 3000","timestamp":"2021-04-22T00:03:51.517Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid","timestamp":"2021-04-22T00:03:51.638Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid_tests","timestamp":"2021-04-22T00:04:01.977Z"}
+{"level":"info","message":"Listening on port: 3000","timestamp":"2021-04-22T00:04:02.013Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid_tests","timestamp":"2021-04-22T00:04:02.362Z"}
+{"level":"info","message":"Listening on port: 3000","timestamp":"2021-04-22T00:04:02.415Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid_tests","timestamp":"2021-04-22T00:05:34.211Z"}
+{"level":"info","message":"Listening on port: 3000","timestamp":"2021-04-22T00:05:34.243Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid_tests","timestamp":"2021-04-22T00:05:34.390Z"}
+{"level":"info","message":"Listening on port: 3000","timestamp":"2021-04-22T00:06:04.919Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid_tests","timestamp":"2021-04-22T00:06:05.016Z"}
+{"level":"info","message":"Listening on port: 3000","timestamp":"2021-04-22T00:06:05.224Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid_tests","timestamp":"2021-04-22T00:06:05.340Z"}
+{"level":"info","message":"Listening on port: 3000","timestamp":"2021-04-22T00:06:29.820Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid_tests","timestamp":"2021-04-22T00:06:29.932Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid_tests","timestamp":"2021-04-22T00:06:30.065Z"}
+{"level":"info","message":"Listening on port: 3000","timestamp":"2021-04-22T00:06:30.116Z"}
+{"level":"info","message":"Listening on port: 3000","timestamp":"2021-04-22T00:06:44.915Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid_tests","timestamp":"2021-04-22T00:06:45.061Z"}
+{"level":"info","message":"Listening on port: 3000","timestamp":"2021-04-22T00:08:10.516Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid_tests","timestamp":"2021-04-22T00:08:10.644Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid_tests","timestamp":"2021-04-22T00:08:10.674Z"}
+{"level":"info","message":"Listening on port: 3000","timestamp":"2021-04-22T00:08:10.712Z"}
+{"level":"info","message":"Listening on port: 3000","timestamp":"2021-04-22T00:09:37.015Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid_tests","timestamp":"2021-04-22T00:09:37.125Z"}
+{"level":"info","message":"Listening on port: 3000","timestamp":"2021-04-22T00:09:38.021Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid_tests","timestamp":"2021-04-22T00:09:38.147Z"}
+{"level":"info","message":"Listening on port: 3000","timestamp":"2021-04-22T00:09:59.490Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid_tests","timestamp":"2021-04-22T00:09:59.611Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid_tests","timestamp":"2021-04-22T00:09:59.845Z"}
+{"level":"info","message":"Listening on port: 3000","timestamp":"2021-04-22T00:09:59.897Z"}
+{"level":"info","message":"Listening on port: 3000","timestamp":"2021-04-22T00:12:10.993Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid_tests","timestamp":"2021-04-22T00:12:11.210Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid_tests","timestamp":"2021-04-22T00:12:11.277Z"}
+{"level":"info","message":"Listening on port: 3000","timestamp":"2021-04-22T00:12:11.327Z"}
+{"level":"info","message":"Listening on port: 3000","timestamp":"2021-04-22T00:14:38.852Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid_tests","timestamp":"2021-04-22T00:14:38.957Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid_tests","timestamp":"2021-04-22T00:14:39.084Z"}
+{"level":"info","message":"Listening on port: 3000","timestamp":"2021-04-22T00:14:39.144Z"}
+{"level":"info","message":"Listening on port: 3000","timestamp":"2021-04-22T00:16:15.016Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid_tests","timestamp":"2021-04-22T00:16:15.202Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid_tests","timestamp":"2021-04-22T00:16:15.526Z"}
+{"level":"info","message":"Listening on port: 3000","timestamp":"2021-04-22T00:16:15.584Z"}
+{"level":"info","message":"Listening on port: 3000","timestamp":"2021-04-22T00:16:35.509Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid_tests","timestamp":"2021-04-22T00:16:35.645Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid_tests","timestamp":"2021-04-22T00:16:35.664Z"}
+{"level":"info","message":"Listening on port: 3000","timestamp":"2021-04-22T00:16:35.700Z"}
+{"level":"info","message":"Listening on port: 3000","timestamp":"2021-04-22T00:17:11.442Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid_tests","timestamp":"2021-04-22T00:17:11.543Z"}
+{"level":"info","message":"Listening on port: 3000","timestamp":"2021-04-22T00:21:27.279Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid_tests","timestamp":"2021-04-22T00:21:27.368Z"}
+{"level":"info","message":"Listening on port: 3000","timestamp":"2021-04-22T00:21:28.486Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid_tests","timestamp":"2021-04-22T00:21:28.591Z"}
+{"level":"info","message":"Listening on port: 3000","timestamp":"2021-04-22T00:22:40.951Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid_tests","timestamp":"2021-04-22T00:22:41.103Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid_tests","timestamp":"2021-04-22T00:22:41.076Z"}
+{"level":"info","message":"Listening on port: 3000","timestamp":"2021-04-22T00:22:41.110Z"}
+{"level":"info","message":"Listening on port: 3000","timestamp":"2021-04-22T00:23:51.976Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid_tests","timestamp":"2021-04-22T00:23:52.112Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid_tests","timestamp":"2021-04-22T00:23:52.315Z"}
+{"level":"info","message":"Listening on port: 3000","timestamp":"2021-04-22T00:23:52.370Z"}
+{"level":"info","message":"Listening on port: 3000","timestamp":"2021-04-22T00:24:22.072Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid_tests","timestamp":"2021-04-22T00:24:22.175Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid","timestamp":"2021-04-22T23:16:31.909Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid","timestamp":"2021-04-22T23:17:14.269Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid","timestamp":"2021-04-22T23:18:02.230Z"}
+{"level":"info","message":"Listening on port: 3000","timestamp":"2021-04-22T23:18:40.327Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid","timestamp":"2021-04-22T23:18:40.399Z"}
+{"level":"info","message":"Listening on port: 3000","timestamp":"2021-04-22T23:18:54.990Z"}
+{"level":"info","message":"Connected to mongodb://localhost/learnerAid","timestamp":"2021-04-22T23:18:55.050Z"}

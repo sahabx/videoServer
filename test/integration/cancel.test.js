@@ -58,4 +58,50 @@ describe("/api/cancel",()=>{
         
         expect(res.status).toBe(400)
     })
+
+    it("should return 404 if no subscription found with the given parameter",async()=>{
+
+        // subscription.cancelled = true;
+        // await subscription.save();
+        await subscription.remove({})
+
+        const token = new Users().generateAuthToken();
+        const res =  await request(server)
+            .post("/api/cancel")
+            .set("x-auth-token",token)
+            .send({customerId:custId,courseId:courseId})
+
+        
+        expect(res.status).toBe(404)
+    })
+
+    it("should return 400 if no subscription is already cancelled",async()=>{
+
+        subscription.cancelled = true;
+        await subscription.save();
+
+        const token = new Users().generateAuthToken();
+        const res =  await request(server)
+            .post("/api/cancel")
+            .set("x-auth-token",token)
+            .send({customerId:custId,courseId:courseId})
+
+        
+        expect(res.status).toBe(400)
+    })
+
+    it("should return 200 if it is a valid request",async()=>{
+
+        subscription.cancelled = false;
+        await subscription.save();
+
+        const token = new Users().generateAuthToken();
+        const res =  await request(server)
+            .post("/api/cancel")
+            .set("x-auth-token",token)
+            .send({customerId:custId,courseId:courseId})
+
+        
+        expect(res.status).toBe(200)
+    })
 })
